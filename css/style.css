@@ -30,7 +30,12 @@ a {
 body {
   background-color: #292929;
   color: #ffffff;
+  margin: 0;
   font-family: 'Gotham Pro', sans-serif;
+}
+
+.container {
+  padding: 0;
 }
 
 .header {
@@ -67,4 +72,152 @@ body {
   margin-top: 16px;
   color: #ff3469;
   font-size: 16px;
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 77px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #4c4c4c;
+}
+
+.hero-title {
+  font-size: 34px;
+  letter-spacing: 0.34px;
+  margin-bottom: 34px;
+}
+
+.hero-desc {
+  font-size: 18px;
+  font-family: 'Gotham Pro Light';
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+}
+
+.flowers-slider {
+  width: 100%;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 83px;
+  margin-top: 87px;
+}
+
+.hero-cta {
+  font-family: 'Gotham Pro Light';
+  font-size: 19px;
+  letter-spacing: 0.19px;
+  margin-bottom: 36px;
+}
+
+.hero-button {
+  text-transform: uppercase;
+  font-family: "Gotham Pro";
+  cursor: pointer;
+  background-color: #ff2e55;
+  padding-top: 30px;
+  padding-right: 65px;
+  padding-left: 65px;
+  padding-bottom: 26px;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  color: #ffffff;
+}
+
+:root {
+  --swiper-navigation-size: 18px;
+  --swiper-theme-color: #ffffff;
+}
+
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.section-title {
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 96px;
+  margin-top: 0;
+}
+
+.review-slide {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.review-img {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  position: relative;
+  margin-right: 50px;
+}
+
+.review-img::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+}
+
+.review-img > * {
+  position: relative;
+}
+
+.review-img-1 {
+  background: url('../img/review-1.jpg');
+}
+
+.review-img-2 {
+  background: url('../img/review-2.jpg');
+  background-position: center top 20%;
+}
+
+.review-name {
+  margin-bottom: 7px;
+}
+
+.review-city {
+  font-family: 'Gotham Pro Light';
+  font-size: 18px;
+}
+
+.review-text {
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+  max-width: 60%;
+}
+
+.review-link {
+  color: #f24841;
+}
+
+.benefits {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  border-bottom: 1px solid #4c4c4c;
+}
+
+.benefit-pic {
+  min-height: 85px;
+  margin-bottom: 30px;
+}
+
+.benefit-title {
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  max-width: 270px;
+  margin: auto;
 }

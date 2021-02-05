@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flowers - интернет магазин цветов</title>
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -38,6 +39,134 @@
     <!-- /.container -->
   </header>
 
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Эксклюзивные цветы и букеты <br>flowers Shop</h1>
+      <p class="hero-desc">первая в россии эксклюзивная доставка цветов <br> для людей, которые ценят
+        <b>уникальность</b>
+      </p>
+
+      <!-- Slider with flowers -->
+      <div class="swiper-container flowers-slider">
+        <!-- Wrapper slide-->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="img/flowers/flower-1.png" alt="цветок" class="slide-image">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/flowers/flower-2.png" alt="цветок" class="slide-image">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/flowers/flower-3.png" alt="цветок" class="slide-image">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/flowers/flower-4.png" alt="цветок" class="slide-image">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/flowers/flower-5.png" alt="цветок" class="slide-image">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/flowers/flower-6.png" alt="цветок" class="slide-image">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/flowers/flower-4.png" alt="цветок" class="slide-image">
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- /.swiper-container -->
+
+      <div class="hero-cta">Закажите эксклюзивный букет со <b>скидкой 10%</b></div>
+      <button class="hero-button">Заказать букет</button>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.hero -->
+  <section class="reviews">
+    <div class="container">
+      <h2 class="section-title">Мы делаем лучшие букеты</h2>
+      <!-- Slider reviews -->
+      <div class="reviews-slider swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="review-slide swiper-slide d-flex align-items-center">
+            <div class="review-img review-img-1 d-flex align-items-center justify-content-center flex-column">
+              <span class="review-name">Алиса Иванова</span>
+              <span class="review-city">г. Ноябрьск</span>
+            </div>
+            <div class="review-text">
+              <p class="review">Я очень довольна таким отношением к делу. Обслужили просто превосходно, я заказывала по
+                телефону — так подробно мне всё объяснили, помогли выбрать замечательный букет, и привезли всё вовремя,
+                букет был очень красивый, он очень понравился, спасибо вам огромное.</p>
+              <a href="#" class="review-link">Посмотреть фотографии букета</a>
+            </div>
+          </div>
+
+          <div class="review-slide swiper-slide d-flex align-items-center">
+            <div class="review-img review-img-2 d-flex align-items-center justify-content-center flex-column">
+              <span class="review-name">Валерия Петрова</span>
+              <span class="review-city">г. Декабрьск</span>
+            </div>
+            <div class="review-text">
+              <p class="review">Доставка просто-таки молниеносная какая-то! Шикарный сервис, отличные цветы! Море
+                удовольствия получателю гарантировано.</p>
+              <a href="#" class="review-link">Посмотреть фотографии букета</a>
+            </div>
+          </div>
+          <!-- /.slide -->
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- /.swiper reviews -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.reviews -->
+  <section class="benefits">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="benefit-pic">
+            <img src="img/benefit-1.png" alt="Только прямые 
+          поставки цветов
+          из Голландии" class="benefit-img">
+          </div>
+          <h3 class="benefit-title">Только прямые поставки цветов из&nbsp;Голландии</h3>
+        </div>
+        <!-- /.col -->
+        <div class="col">
+          <div class="benefit-pic">
+            <img src="img/benefit-2.png" alt="Наши флористы
+          имеют 10 летний
+          стаж работы" class="benefit-img">
+          </div>
+          <h3 class="benefit-title">Наши флористы имеют 10 летний стаж работы</h3>
+        </div>
+        <!-- /.col -->
+        <div class="col">
+          <div class="benefit-pic">
+            <img src="img/benefit-3.png" alt="Все цветы
+          вручную отбираются
+          нашими флористами" class="benefit-img">
+          </div>
+          <h3 class="benefit-title">Все цветы вручную отбираются нашими&nbsp;флористами</h3>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.benefits -->
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
